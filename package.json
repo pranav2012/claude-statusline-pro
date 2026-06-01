@@ -1,0 +1,28 @@
+{
+  "name": "@pranav2012/claude-statusline-pro",
+  "version": "1.0.0",
+  "description": "A compact, information-dense statusline for Claude Code: model, token usage, cost, context window, and 5h/7d/extra-usage budgets from the OAuth usage API.",
+  "bin": {
+    "claude-statusline-pro": "bin/install.js"
+  },
+  "files": [
+    "bin/install.js",
+    "statusline-command.sh",
+    "README.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "statusline",
+    "anthropic",
+    "cli",
+    "terminal"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
