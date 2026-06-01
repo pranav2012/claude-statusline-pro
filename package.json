@@ -5,6 +5,14 @@
   "bin": {
     "claude-statusline-pro": "bin/install.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranav2012/claude-statusline-pro.git"
+  },
+  "homepage": "https://github.com/pranav2012/claude-statusline-pro#readme",
+  "bugs": {
+    "url": "https://github.com/pranav2012/claude-statusline-pro/issues"
+  },
   "files": [
     "bin/install.js",
     "statusline-command.sh",
@@ -24,5 +32,9 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^24.2.3"
   }
 }
