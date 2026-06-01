@@ -1,6 +1,6 @@
 {
   "name": "@pranav2012/claude-statusline-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A compact, information-dense statusline for Claude Code: model, token usage, cost, context window, and 5h/7d/extra-usage budgets from the OAuth usage API.",
   "bin": {
     "claude-statusline-pro": "bin/install.js"
